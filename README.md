@@ -44,6 +44,6 @@ We thank the following repos providing helpful components/functions in our work.
  + [FACT](https://github.com/zhoudw-zdw/CVPR22-Fact?tab=readme-ov-file)
 
 # Contact
-If there are any questions, please feel free to contact with the author: [Kai Hu](kaihu@xtu.edu.cn). Enjoy the code.
+If there are any questions, please feel free to contact with the author: Kai Hu(kaihu@xtu.edu.cn). Enjoy the code.
 
 
