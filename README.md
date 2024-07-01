@@ -20,7 +20,7 @@ We provide the source code on three benchmark datasets, i.e., CIFAR100, CUB200 a
 # Code Structures
 There are four parts in the code.
 
-+ '''models''':It contains the backbone network and training protocols for the experiment.
-+ '''data''': Images and splits for the data sets.
-+ '''dataloader''': Dataloader of different datasets.
-+ '''checkpoint''':The weights and logs of the experiment.
++ ```models```:It contains the backbone network and training protocols for the experiment.
++ ```data```: Images and splits for the data sets.
++ ```dataloader```: Dataloader of different datasets.
++ ```checkpoint```:The weights and logs of the experiment.
