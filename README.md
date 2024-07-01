@@ -32,10 +32,10 @@ The model weights can be obtained here：[Checkpoint](https://drive.google.com/d
 + Train CIFAR100
 ```python train.py -seed 10 -epochs_base 200 -schedule 'Cosine' -lr_base 0.1 -dataset  'cifar100' -drop_rate 0.3 -std 0.01 -batch_size_base 256```
 
- +Train CUB200
++ Train CUB200
  ```python train.py -seed 10 -epochs_base 200 -schedule 'Step' -lr_base 0.01 -dataset  'cub200' -drop_rate 0.8 -std 0.01 -batch_size_base 256```
 
- +Train miniImageNet
++ Train miniImageNet
  ```python train.py -seed 10 -epochs_base 200 -schedule 'Cosine' -lr_base 0.1 -dataset  'mini_imagenet' -drop_rate 0.3 -std 0.01 -batch_size_base 256 ```
 
 # Acknowledgment
