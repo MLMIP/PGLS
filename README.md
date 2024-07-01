@@ -23,7 +23,8 @@ There are four parts in the code.
 + ```models```:It contains the backbone network and training protocols for the experiment.
 + ```data```: Images and splits for the data sets.
 + ```dataloader```: Dataloader of different datasets.
-+ ```checkpoint```:The weights and logs of the experiment.
++ ```checkpoint```: The weights and logs of the experiment.
++ ```augmentations```: Optional data augmentation, default is none
 
 # Checkpoint
 The model weights can be obtained here：[Checkpoint](https://drive.google.com/drive/folders/1GxG2A2lk3kxuv6fjldZ-5TNr5IM-ufZh)
