@@ -24,3 +24,13 @@ There are four parts in the code.
 + ```data```: Images and splits for the data sets.
 + ```dataloader```: Dataloader of different datasets.
 + ```checkpoint```:The weights and logs of the experiment.
+
+# Training scripts
++ Train CIFAR100
+```python train.py -seed 10 -epochs_base 200 -schedule 'Cosine' -lr_base 0.1 -dataset  'cifar100' -drop_rate 0.3 -std 0.01 -batch_size_base 256```
+
+ +Train CUB200
+ ```python train.py -seed 10 -epochs_base 200 -schedule 'Step' -lr_base 0.01 -dataset  'cub200' -drop_rate 0.8 -std 0.01 -batch_size_base 256```
+
+ +Train miniImageNet
+ ```python train.py -seed 10 -epochs_base 200 -schedule 'Cosine' -lr_base 0.1 -dataset  'mini_imagenet' -drop_rate 0.3 -std 0.01 -batch_size_base 256 ```
