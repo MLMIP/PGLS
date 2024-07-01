@@ -34,3 +34,13 @@ There are four parts in the code.
 
  +Train miniImageNet
  ```python train.py -seed 10 -epochs_base 200 -schedule 'Cosine' -lr_base 0.1 -dataset  'mini_imagenet' -drop_rate 0.3 -std 0.01 -batch_size_base 256 ```
+
+# Acknowledgment
+We thank the following repos providing helpful components/functions in our work.
+ + [CEC](https://github.com/icoz69/CEC-CVPR2021)
+ + [FACT](https://github.com/zhoudw-zdw/CVPR22-Fact?tab=readme-ov-file)
+
+# Contact
+If there are any questions, please feel free to contact with the author: (kaihu@xtu.edu.cn). Enjoy the code.
+
+
