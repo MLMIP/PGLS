@@ -25,6 +25,9 @@ There are four parts in the code.
 + ```dataloader```: Dataloader of different datasets.
 + ```checkpoint```:The weights and logs of the experiment.
 
+# Checkpoint
+The model weights can be obtained here：[Checkpoint](https://drive.google.com/drive/folders/1oBTNADb4DFt1-AgrmMAJGfA8MVlmV70B?usp=share_link)
+
 # Training scripts
 + Train CIFAR100
 ```python train.py -seed 10 -epochs_base 200 -schedule 'Cosine' -lr_base 0.1 -dataset  'cifar100' -drop_rate 0.3 -std 0.01 -batch_size_base 256```
