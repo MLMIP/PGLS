@@ -26,7 +26,7 @@ There are four parts in the code.
 + ```checkpoint```:The weights and logs of the experiment.
 
 # Checkpoint
-The model weights can be obtained here：[Checkpoint](https://drive.google.com/drive/folders/1oBTNADb4DFt1-AgrmMAJGfA8MVlmV70B?usp=share_link)
+The model weights can be obtained here：[Checkpoint](https://drive.google.com/drive/folders/1GxG2A2lk3kxuv6fjldZ-5TNr5IM-ufZh)
 
 # Training scripts
 + Train CIFAR100
